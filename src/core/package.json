@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-image-cache",
-  "version": "0.0.13",
+  "name": "@travelscroll/capacitor-image-cache",
+  "version": "0.0.13.1",
   "description": "",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -10,7 +10,6 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Osei Fortune",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
