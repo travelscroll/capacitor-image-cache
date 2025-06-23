@@ -1,7 +1,7 @@
 import { registerPlugin } from '@capacitor/core';
 import { IImageCache } from './definitions';
 
-const ImageCachePlugin : ImageCache = registerPlugin<IImageCache>(
+const ImageCachePlugin : IImageCache = registerPlugin<IImageCache>(
     'ImageCachePlugin',
     {
         web: () => import('./web').then(m => new m.ImageCachePluginWeb()),

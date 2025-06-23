@@ -3,10 +3,6 @@ import { IImageCache } from './definitions';
 
 export class ImageCachePluginWeb extends WebPlugin implements IImageCache {
 
-  constructor() {
-    super();
-  }
-
   clear(): Promise<{ value: boolean }> {
     return new Promise(() => { });
   }
