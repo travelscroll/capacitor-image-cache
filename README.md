@@ -1,7 +1,7 @@
-# Update June 2025
+## Update June 2025
 
 - Upgrade to Capacitor 7.x
-- iOS Deployment Target 14.0
+- Min iOS Deployment Target 14.0
 
 # Previous README 2019
 # Image Cache Core

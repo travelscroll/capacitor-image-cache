@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-image-cache",
+  "name": "@travelscroll/capacitor-image-cache",
   "version": "0.0.14",
   "description": "",
   "main": "dist/esm/index.js",
