@@ -1,6 +1,6 @@
 {
-  "name": "@travelscroll/capacitor-image-cache",
-  "version": "0.0.13.1",
+  "name": "capacitor-image-cache",
+  "version": "0.0.14",
   "description": "",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,13 +15,13 @@
     "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "typescript": "^2.9.2"
+    "typescript": "5.4.5"
   },
   "files": [
     "dist/",
     "ios/",
     "android/",
-    "CapacitorImageCache.podspec"
+    "TravelscrollCapacitorImageCache.podspec"
   ],
   "keywords": [
     "capacitor",

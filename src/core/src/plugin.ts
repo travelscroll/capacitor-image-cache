@@ -1,7 +1,12 @@
-import { Plugins } from '@capacitor/core';
+import { registerPlugin } from '@capacitor/core';
 import { IImageCache } from './definitions';
 
-const { ImageCachePlugin } = Plugins;
+const ImageCachePlugin : ImageCache = registerPlugin<IImageCache>(
+    'ImageCachePlugin',
+    {
+        web: () => import('./web').then(m => new m.ImageCachePluginWeb()),
+    },
+);
 
 export class ImageCache implements IImageCache {
     clear(): Promise<{ value: boolean }> {

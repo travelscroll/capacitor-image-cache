@@ -4,10 +4,7 @@ import { IImageCache } from './definitions';
 export class ImageCachePluginWeb extends WebPlugin implements IImageCache {
 
   constructor() {
-    super({
-      name: 'ImageCachePlugin',
-      platforms: ['web']
-    });
+    super();
   }
 
   clear(): Promise<{ value: boolean }> {
@@ -40,8 +37,3 @@ export class ImageCachePluginWeb extends WebPlugin implements IImageCache {
     });
   }
 }
-
-const ImageCachePlugin = new ImageCachePluginWeb();
-
-export { ImageCachePlugin };
-
