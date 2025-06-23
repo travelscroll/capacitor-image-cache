@@ -5,7 +5,7 @@
     s.summary = 'Image cache'
     s.license = 'MIT'
     s.homepage = 'https://github.com/travelscroll/capacitor-image-cache'
-    s.source = { :git => '', :tag => s.version.to_s }
+    s.source = { :git => 'https://github.com/travelscroll/capacitor-image-cache.git', :tag => s.version.to_s }
     s.author = 'Richard McKern'
     s.source_files = 'ios/Plugin/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.ios.deployment_target  = '14.0'
