@@ -1,3 +1,9 @@
+## Update June 2025
+
+- Upgrade to Capacitor 7.x
+- Min iOS Deployment Target 14.0
+
+# Previous README 2019
 # Image Cache Core
 
 [![npm](https://img.shields.io/npm/v/capacitor-image-cache.svg)](https://www.npmjs.com/package/capacitor-image-cache)
